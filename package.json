@@ -1,0 +1,37 @@
+{
+  "name": "charityconnect-website",
+  "version": "1.0.0",
+  "description": "Official website for CharityConnect mobile application",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=/",
+    "build": "echo 'Static website - no build process required'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "charity",
+    "donation",
+    "nonprofit",
+    "community",
+    "giving",
+    "help",
+    "support",
+    "website",
+    "landing-page"
+  ],
+  "author": "CharityConnect Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charityconnect/website.git"
+  },
+  "homepage": "https://charityconnect.app",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
